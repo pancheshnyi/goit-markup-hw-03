@@ -4,6 +4,11 @@ body {
   background-color: #ffffff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style-type: none;
 }
@@ -174,8 +179,6 @@ img {
 .benefits {
   display: flex;
   justify-content: space-between;
-  /* padding: 0 24px; */
-  background-color: red;
   gap: 20;
 }
 
@@ -256,11 +259,17 @@ img {
 
 /* ----------------------------PORTFOLIO--------------------------- */
 
+.portfolio {
+  padding: 120px 0 120px 0;
+}
+
 .portfolio-section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 24px;
+  /* padding: 0 24px; */
+  /* background-color: red; */
+  gap: 24px;
 }
 
 .portfolio-main-title {
@@ -271,7 +280,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 120px 611px 72px 611px;
+  padding: 0px 0px 72px 0px;
 }
 
 .portfolio-title {
@@ -280,7 +289,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 32px 226px 8px 16px;
+  /* padding: 32px 226px 8px 16px; */
 }
 
 .portfolio-description {
@@ -289,7 +298,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 0 314px 32px 16px;
+  /* padding: 0 314px 32px 16px; */
 }
 
 /* ----------------------------PORTFOLIO--------------------------- */
