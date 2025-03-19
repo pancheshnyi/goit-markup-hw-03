@@ -31,6 +31,10 @@ h6 {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -138,7 +142,10 @@ h6 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  padding: 188px 472px 48px 472px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 496px;
+  /* padding: 188px 472px 48px 472px; */
 }
 
 .solution-button {
@@ -156,7 +163,8 @@ h6 {
   color: #fff;
   cursor: pointer;
   padding: 16px 32px;
-  margin-bottom: 188px;
+  display: block;
+  /* margin-bottom: 188px; */
 }
 
 .solution-button:hover,
@@ -170,8 +178,10 @@ h6 {
 
 .benefits {
   display: flex;
-  justify-content: space-around;
-  padding-left: 0 24px;
+  justify-content: space-between;
+  /* padding: 0 24px; */
+  background-color: red;
+  gap: 20;
 }
 
 .benefits-section {
