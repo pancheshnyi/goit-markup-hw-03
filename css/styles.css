@@ -203,7 +203,7 @@ img {
 
 .benefits-section {
   padding: 120px 0;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .visually-hidden {
@@ -213,6 +213,7 @@ img {
 
 .benefits-item {
   width: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 
 .benefits-title {
@@ -221,7 +222,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* padding-bottom: 8px; */
   margin-bottom: 8px;
 }
 
@@ -239,6 +239,7 @@ img {
 
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .title {
@@ -249,7 +250,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 72px;
 }
 
