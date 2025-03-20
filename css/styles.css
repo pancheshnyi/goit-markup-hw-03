@@ -165,7 +165,8 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
-  /* display: flex; */
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .solution-button {
@@ -181,8 +182,8 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  /* padding: 16px 32px; */
   display: block;
+  margin: 0 auto;
 }
 
 .solution-button:hover,
@@ -246,7 +247,8 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding: 120px 639px 72px 639px;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-block {
@@ -262,15 +264,15 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 32px 65px 8px 65px;
+  padding: 32px 65px 0 65px;
+  margin-bottom: 8px;
 }
 
 .team-section {
-  /* padding-left: 156px; */
-  /* padding-right: 156px; */
   display: flex;
   justify-content: space-between;
   padding-bottom: 120px;
+  gap: 24px;
 }
 
 .team-description {
