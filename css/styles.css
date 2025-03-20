@@ -198,11 +198,12 @@ img {
 .benefits {
   display: flex;
   justify-content: space-between;
-  gap: 24;
+  /* gap: 24; */
 }
 
 .benefits-section {
   padding: 120px 0;
+  gap: 24px;
 }
 
 .visually-hidden {
@@ -220,7 +221,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
+  margin-bottom: 8px;
 }
 
 .benefits-description {
