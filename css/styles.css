@@ -197,23 +197,20 @@ img {
 
 .benefits {
   display: flex;
-  justify-content: space-between;
-  gap: 24;
+  /* justify-content: space-between; */
+  gap: 24px;
 }
 
 .benefits-section {
   padding: 120px 0;
-  /* gap: 24px; */
 }
 
 .visually-hidden {
-  /* position: absolute; */
   visibility: hidden;
 }
 
 .benefits-item {
   width: calc((100% - 72px) / 4);
-  /* gap: 24px; */
 }
 
 .benefits-title {
@@ -304,8 +301,6 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* width: calc((100% - 96px) / 6); */
-  /* gap: 24px; */
   row-gap: 48px;
   column-gap: 24px;
 }
