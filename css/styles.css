@@ -4,6 +4,8 @@ body {
   background-color: #ffffff;
 }
 
+/* --------------------------------RESET-------------------------- */
+
 /* * {
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 a {
@@ -26,16 +28,13 @@ button {
   cursor: pointer;
 }
 
-p {
-  margin: 0;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -43,33 +42,43 @@ img {
   display: block;
 }
 
+/* -------------------------------RESET-------------------------- */
+
+/* -----------------------------COMMON-------------------------- */
+
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
+
+/* -----------------------------COMMON-------------------------- */
 
 /* -----------------------------HEADER--------------------------- */
 
 .header-main {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
   display: flex;
-  justify-content: space-around;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  align-items: center;
 }
 
 .header-menu {
-  justify-content: space-between;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 .nav-main {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .logo-primary {
@@ -93,17 +102,16 @@ img {
 }
 
 .header-adress {
-  justify-content: space-around;
   font-weight: 400;
   font-style: normal;
   color: #434455;
-  display: flex;
-  flex-direction: row;
+  margin-left: auto;
 }
 
 .adress-list {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 .adress {
@@ -114,12 +122,19 @@ img {
   color: #434455;
 }
 
+.adress-item {
+  display: block;
+  padding: 24px 0;
+}
+
 .adress:hover,
 .adress:focus {
   color: #404bbf;
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16;
   line-height: 1.5;
