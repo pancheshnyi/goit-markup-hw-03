@@ -206,7 +206,8 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
 }
 
 .benefits-item {
