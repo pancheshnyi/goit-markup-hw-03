@@ -312,7 +312,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 0px 0px 72px 0px;
+  margin-bottom: 72px;
 }
 
 .portfolio-title {
@@ -339,6 +339,7 @@ img {
 
 .footer-main {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-description {
@@ -369,4 +370,17 @@ img {
   color: #f4f4fd;
 }
 
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-container {
+  width: 264px;
+  /* padding: 0; */
+  border: 0;
+  margin: 0 0 0 156px;
+  padding: 0;
+  /* padding: 140px 0 100px 156px; */
+}
 /* -----------------------------FOOTER--------------------------- */
