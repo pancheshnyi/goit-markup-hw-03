@@ -166,7 +166,7 @@ img {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .solution-button {
@@ -197,7 +197,6 @@ img {
 
 .benefits {
   display: flex;
-  /* justify-content: space-between; */
   gap: 24px;
 }
 
@@ -245,7 +244,8 @@ img {
 
 .team {
   background: #f4f4fd;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title {
@@ -266,7 +266,7 @@ img {
 }
 
 .team-container {
-  padding: 32px 0;
+  padding: 32px 0px;
 }
 
 .team-title {
@@ -277,14 +277,12 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 32px 65px 0 65px;
   margin-bottom: 8px;
 }
 
 .team-section {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
@@ -295,7 +293,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding: 0 68px 32px 68px;
 }
 
 /* ------------------------------TEAM--------------------------- */
@@ -326,8 +323,7 @@ img {
 }
 
 .portfolio-container {
-  padding: 32px 16px;
-  /* padding-top: 32px; */
+  padding: 32px;
   padding-left: 16px;
   border-top: none;
   border-bottom: 1px solid #e7e9fc;
@@ -350,7 +346,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* padding: 0 314px 32px 16px; */
 }
 
 /* ----------------------------PORTFOLIO--------------------------- */
@@ -368,6 +363,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer-logo {
@@ -395,12 +391,4 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-container {
-  width: 264px;
-  /* padding: 0; */
-  border: 0;
-  margin: 0 0 0 156px;
-  padding: 0;
-  /* padding: 140px 0 100px 156px; */
-}
 /* -----------------------------FOOTER--------------------------- */
